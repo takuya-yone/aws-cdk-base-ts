@@ -1261,6 +1261,7 @@ __metadata:
     "@types/node": "npm:22.15.18"
     aws-cdk: "npm:2.1016.0"
     aws-cdk-lib: "npm:2.196.0"
+    cdk-nag: "npm:^2.35.100"
     constructs: "npm:^10.4.2"
     esbuild: "npm:^0.25.4"
     jest: "npm:^29.7.0"
@@ -1515,6 +1516,16 @@ __metadata:
   version: 1.6.3
   resolution: "case@npm:1.6.3"
   checksum: 10/2fc1df75bbb4118339e06141b9a54aba95cc62460ac92730290144fbec6b6a04f5bf7abf6a6486a1338f5821bd184402f216cec8cea0472451759c27e20fc332
+  languageName: node
+  linkType: hard
+
+"cdk-nag@npm:^2.35.100":
+  version: 2.35.100
+  resolution: "cdk-nag@npm:2.35.100"
+  peerDependencies:
+    aws-cdk-lib: ^2.156.0
+    constructs: ^10.0.5
+  checksum: 10/a696203f04b016f60b305bca6dc8611f2b0fc63015d42ca5ae524d56f723246df62600b64622c3f0cef0e5e87b6040ca328b679b40efb33b22f575c4ddb10153
   languageName: node
   linkType: hard
 
